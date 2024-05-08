@@ -3,22 +3,22 @@ import Link from "next/link";
 
 export default function Commands() {
 const commands = [
-  "/autoplay",
-  "/back",
-  "/statistic",
-  "/channel",
-  "/clear",
-  "/dj",
-  "/filter",
-  "/help",
-  "/language",
-  "/loop",
-  "/nowplaying",
-  "/pause",
+  "/yardım",
+  "/avatar",
+  "/ayarlar",
+  "/ban",
+  "/random-anime",
+  "/kanal-kilitle",
+  "/kanal-aç",
+  "/botlist-ayarla",
+  "/davet",
+  "/destek-sistemi",
+  "/destek-sistemi-sıfırla",
+  "/buton-rol",
   "/ping",
-  "/play",
-  "/playlist",
-  "/queue",
+  "/capslock-engel",
+  "/banlist",
+  "/forceban",
   "/resume",
   "/save",
   "/search",
@@ -96,14 +96,14 @@ Invite MusicMaker</a>
 
   <div className="py-10"></div>
   
-  <Link href={"https://discord.gg/ZcDprCrFTn"}>
+  <Link href={"https://discord.gg/Fky8tzKJ7C"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
 Support Server</a>
   </Link>
 
   <div className="py-10"></div>
   
-  <Link href={"https://top.gg/bot/774043716797071371/vote"}>
+  <Link href={"daha değil!!!"}>
   <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
 Vote MusicMaker</a>
   </Link>
